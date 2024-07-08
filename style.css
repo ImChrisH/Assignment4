@@ -1,0 +1,204 @@
+/* .body{background-color: blue;}
+
+.super {
+    /* position: absolute; */
+    /* display:flex;
+    border: 3px solid yellowgreen;
+    /* overflow:hidden; */
+    
+    
+/* } */
+
+body{
+    background-image: url("/images/background/hydration.jpg");
+    background-size: 100%;
+}
+
+/* .wrapper{
+    position: absolute;
+     width:2200px;
+     border:3px solid red;
+     height: 200px;
+     display: flex;
+     animation-name: slide;
+    animation-duration: 4s;
+    
+}
+
+.slidebox {width: 25%;
+    height: 100%;
+   
+}
+
+.s1 {
+    width:25%;
+    height: 100%;
+    border: 3px solid red;
+    background-color: blue;
+    
+
+}
+
+.s2 {
+    width:25%;
+    height: 100%;
+    border: 3px solid red;
+    background-color: green;
+   
+
+}
+
+.s3 {
+    width:25%;
+    height: 100%;
+    border: 3px solid red;
+    background-color: yellow;
+    
+
+}
+
+
+.s4 {
+    width:25%;
+    height: 100%;
+    border: 3px solid red;
+    background-color: brown;
+  
+}
+
+
+
+@keyframes slide {
+    0%{left: .5%;}
+    100%{left: 100%};
+    50%{animation-direction:reverse 50%;}
+    
+}  */
+
+.mdlwindowblue{
+    opacity: 0;
+    pointer-events:none;
+    background-color: rgba(54, 54, 255, 0.5);
+    transition: all 1s ease-in;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom:0;
+    right: 0;
+}
+
+.mdlwindowgreen{
+    opacity: 0;
+    pointer-events:none;
+    background-color: rgba(5, 128, 1, 0.5);
+    transition: all 1s ease-in;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom:0;
+    right: 0;
+}
+.mdlwindowred{
+  
+    opacity: 0;
+    pointer-events:none;
+    background-color: rgba(136, 8, 8, 0.5);
+    transition: all 1s ease-in;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom:0;
+    right: 0;
+}
+
+
+
+.mdlwindowblue:target{
+    opacity:1;
+    pointer-events:all;
+
+}
+
+.mdlwindowgreen:target{
+    opacity:1;
+    pointer-events:all;
+
+}
+
+.mdlwindowred:target{
+    opacity:1;
+    pointer-events:all;
+
+}
+
+.msgbox{
+    position:fixed;
+    background-color: rgb(156, 99, 0);
+    width: 30%;
+    margin: auto;
+    height: 400px;
+    padding: 3%;
+    top:20%;
+    left:30%;
+    text-align: center;
+}
+
+.modalwrapper{
+    display:flex;
+    position:absolute;
+    /* top:25%; */
+    /* left:25%; */
+    /* margin:auto; */
+    font-size:22px;
+    background-color: rgba(97, 97, 97, 0.471);
+
+
+}
+
+.kiwi1{
+    text-align: center;
+    /* align-content: center; */
+    border: 10px solid rgb(226, 255, 60);
+    margin:5%;
+    /* padding:2%; */
+    float:left;
+    width:600px;
+    height:600px;
+    background-color: rgba(122, 84, 84, 0.5);
+}
+
+.kiwi2{
+    text-align: center;
+    /* align-content: center; */
+    border: 10px solid rgb(226, 255, 60);
+    margin:5%;
+    /* padding:2%; */
+    float:left;
+    width:600px;
+    height: 630px;
+    background-color: rgba(122, 84, 84, 0.5);
+}
+
+.kiwi3{
+    text-align: center;
+    /* align-content: center; */
+    border: 10px solid rgb(226, 255, 60);
+    margin: 5%;
+    /* padding:2%; */
+    float:left;
+    width:600px;
+    height: 600px;
+    background-color: rgba(122, 84, 84, 0.5);
+}
+
+p {
+    padding-left: 2%;
+    padding-right: 2%;
+    color:aquamarine;
+    font-family: 'Calibri', sans-serif;
+}
+
+h1{
+    color:aquamarine;
+    background-color:rgba(91, 255, 32, 0.129);
+}
