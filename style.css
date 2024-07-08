@@ -66,8 +66,8 @@ body{
     margin: auto;
     height: auto;
     /* padding: 3%; */
-    top:20%;
-    left:39%;
+    top:8%;
+    left:37.5%;
     text-align: center;
     border-radius: 100px;
 }
@@ -136,5 +136,19 @@ p {
 
 h1{
     color:aquamarine;
+    font-family: 'Calibri', sans-serif;
     background-color:rgba(91, 255, 32, 0.129);
+    border-radius:40px 40px 0px 0px;
+    width:auto;
+}
+
+h2 {font-family: 'Calibri', sans-serif;
+    font-size: 36px;
+    color:aquamarine;
+
+}
+
+figcaption{
+    color:white;
+
 }
