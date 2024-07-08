@@ -1,79 +1,9 @@
-/* .body{background-color: blue;}
-
-.super {
-    /* position: absolute; */
-    /* display:flex;
-    border: 3px solid yellowgreen;
-    /* overflow:hidden; */
-    
-    
-/* } */
-
 body{
     background-image: url("./images/background/hydration.jpg");
     background-size: 100%;
 }
 
-/* .wrapper{
-    position: absolute;
-     width:2200px;
-     border:3px solid red;
-     height: 200px;
-     display: flex;
-     animation-name: slide;
-    animation-duration: 4s;
-    
-}
 
-.slidebox {width: 25%;
-    height: 100%;
-   
-}
-
-.s1 {
-    width:25%;
-    height: 100%;
-    border: 3px solid red;
-    background-color: blue;
-    
-
-}
-
-.s2 {
-    width:25%;
-    height: 100%;
-    border: 3px solid red;
-    background-color: green;
-   
-
-}
-
-.s3 {
-    width:25%;
-    height: 100%;
-    border: 3px solid red;
-    background-color: yellow;
-    
-
-}
-
-
-.s4 {
-    width:25%;
-    height: 100%;
-    border: 3px solid red;
-    background-color: brown;
-  
-}
-
-
-
-@keyframes slide {
-    0%{left: .5%;}
-    100%{left: 100%};
-    50%{animation-direction:reverse 50%;}
-    
-}  */
 
 .mdlwindowblue{
     opacity: 0;
